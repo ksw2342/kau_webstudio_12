@@ -1,0 +1,78 @@
+.login {
+	padding-top: 114px;
+	overflow: hidden;
+}
+.login #login {
+	border: none;
+	margin-top: 0px;
+	padding-top: 0px;
+	position: relative;
+}
+	.login h1 {
+		background: #FFF;
+		border: none;
+		padding: 30px 0 10px 0;
+		border-radius: 3px 3px 0 0;
+		-moz-border-radius: 3px 3px 0 0;
+		-webkit-border-radius: 3px 3px 0 0;
+		-moz-box-shadow: rgba(200,200,200,0.7) 0 0 10px -1px;
+		-webkit-box-shadow: rgba(200, 200, 200, 0.7) 0 0 10px -1px;
+		box-shadow: rgba(200, 200, 200, 0.7) 0 0 10px -1px;
+		position: relative;
+	}
+	.login h1 a { width: 100%; }
+	.login form {
+		margin: 0px;
+		position: relative!important;
+		background: #FFF;
+		border-radius: 0 0 3px 3px;
+		-moz-border-radius: 0 0 3px 3px;
+		-webkit-border-radius: 0 0 3px 3px;
+		border: none;
+		padding: 20px 24px 30px 24px;
+	}
+		.login form input[type="text"],
+		.login #loginform input[type="password"],
+		.login #loginform input[type="email"] { margin-top: 5px; }
+		
+		.login p.forgetmenot {
+		    position: absolute;
+		    right: 70px;
+		    bottom: 32px;
+		}
+		.login #login form p.submit {
+		    width: 100%;
+		    clear: both;
+		    display: block;
+		    padding: 10px 0 0 0;
+		}
+		.login #login #registerform p.submit { padding-top: 0px; }
+		.login #login #lostpasswordform p.submit { text-align: center; }
+			.login p.submit input[type="submit"] {
+				margin: 0 0 0 55px;
+				float: none;
+				line-height: normal;
+				height: 23px;
+				box-shadow: none;
+				font-size: 12px;
+			}
+			#registerform p.submit input[type="submit"], 
+			#lostpasswordform p.submit input[type="submit"] {
+				margin: 0px;
+			}
+			#lostpasswordform p.submit input[type="submit"] { display: inline; }
+			
+		
+.login div.updated, .login .message, div.error, .login #login_error {
+	border-left: 0px;
+	border-right: none;
+	border-radius: 0px;
+	-moz-box-shadow: rgba(200,200,200,0.7) 0 4px 10px -1px;
+	-webkit-box-shadow: rgba(200, 200, 200, 0.7) 0 4px 10px -1px;
+	box-shadow: rgba(200, 200, 200, 0.7) 0 4px 10px -1px;
+	margin: 0px;
+	padding: 10px 24px;
+	background-color: #ffffe0;
+	border-color: #e6db55;
+}
+.login #nav, .login #backtoblog { margin-left: 10px; }

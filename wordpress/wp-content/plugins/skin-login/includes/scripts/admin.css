@@ -1,0 +1,223 @@
+/* Form Fields */
+	.form-table th { width: 180px; }
+	.tabpane label { font-style: italic; color: #666; display: block; }
+	.tabpane input[type="text"] { max-width: 95%; padding: 3px 5px; }
+	.tabpane textarea { width: 95%; height: 100px; }
+	.tabpane label.checkbox_description,
+	.tabpane label.radio_description {
+		font-style: normal; display: inline-block; padding: 0 0 0 5px; margin-top: -2px;
+	}
+	
+	/* Upload */
+	.tabpane .upload_buttons { padding-top: 5px; padding-bottom: 5px; }
+		.tabpane .upload_buttons a { font-size: 11px; margin: 0 0 0 5px; }
+	.show-image img { border: 1px solid #CCC; max-width: 90%; padding: 3px; margin: 10px 0 0 0; background: #FFF; }
+
+/* Plugin Options */
+.sn_plugin_options_wrap p.submit { padding: 20px 0 0 10px; display: block; }
+.sn_plugin_options_wrap .form-table { margin: 0 0 20px 0; }
+
+	/* Options Tabs */	
+	.nav-tab-wrapper-post-options { margin-top: 10px!important; margin-bottom: 15px!important; padding: 0!important; }
+	.nav-tab-wrapper-post-options .nav-tab { border-bottom-color: #f9f9f9!important; }
+	
+	/* Headings */
+	.tabpane_heading { padding: 14px 0 14px 10px; }
+		.tabpane_heading h2 { margin: 0; padding: 0; font-size: 20px; line-height: 20px; }
+		#poststuff .post_options h2 { margin: 0px; }
+		.tabpane-post-options .tabpane_heading h2 { margin: 0px!important; padding: 0px!important; }
+		.tabpane_heading p { margin: 0; padding: 4px 0 0 0; color: #999; }
+		
+		/* Post Options Headings */
+		.tabpane-post-options .tabpane_heading { padding: 0 0 14px 10px; }
+		.tabpane-post-options th { font-size: 12px; }
+	
+	/* Options sub headings */
+	.options-subheading-container { position: relative; }
+		.options-sub-heading { overflow: hidden; clear: both; padding: 0 0 20px 0; }
+			.options-sub-heading h4 { 
+				margin: 0; clear: both; font-size: 14px; font-weight: normal; padding: 0 0 4px 0; margin: 0 0 0 10px; font-weight: bold; display: inline;
+			}
+			.options-sub-heading p { margin: 0; padding: 0 0 0 10px; color: #999; }
+
+/* Misc */
+.widget-content input,
+.widget-content textarea { margin-top: 2px; }
+.color-picker-selector { background: #EEE; border: 1px solid #CCC; z-index: 3000; }
+
+/* Specific to Skin Login plugin */
+
+/* Preview */
+.sn_plugin_options_wrap .sn_skin_login_preview {
+	width: 56%;
+	float: right;
+	margin: 0 10px 20px 0;
+	position: relative;
+	height: 730px;
+	overflow: hidden;
+	border-bottom: 1px solid #CCC;
+}
+	.sn_plugin_options_wrap .sn_skin_login_preview .added-styles {
+		display: none;
+	}
+	.sn_plugin_options_wrap .sn_skin_login_preview h2 { padding: 12px 0 12px 0; }
+	.sn_plugin_options_wrap .sn_skin_login_preview .switch-previews {
+		font-size: 12px;
+		padding: 0 0 0 0;
+		color: #999;
+		position: absolute;
+		top: 22px;
+		right: 0px;
+	}
+	.sn_plugin_options_wrap .sn_skin_login_preview .switch-previews a.active { font-weight: bold; color: #333; text-decoration: none; }
+	.sn_plugin_options_wrap .sn_skin_login_preview .sn_skin_login_preview_page, 
+	.sn_plugin_options_wrap .sn_skin_login_preview .classes-overlay {
+		height: 700px;
+		width: 100%;
+		border: 1px solid #CCC;
+		overflow: auto;
+		position: absolute;
+		top: 54px;
+		left: 0px;
+		display: none;
+		transition: background 0.3s;
+		-moz-transition: background 0.3s;
+		-webkit-transition: background 0.3s;
+		-o-transition: background 0.3s;
+	}
+	.sn_plugin_options_wrap .sn_skin_login_preview .sn_skin_login_preview_page h1 a {
+		transition: height 0.3s;
+		-moz-transition: height 0.3s;
+		-webkit-transition: height 0.3s;
+		-o-transition: height 0.3s;
+	}
+	.sn_plugin_options_wrap .sn_skin_login_preview #login,
+	.sn_plugin_options_wrap .sn_skin_login_preview #login form {
+		transition: width 0.3s;
+		-moz-transition: width 0.3s;
+		-webkit-transition: width 0.3s;
+		-o-transition: width 0.3s;
+	}
+	
+/* Overlay Classes */
+	.sn_plugin_options_wrap .sn_skin_login_preview .classes-overlay {
+		background: transparent;
+		background: rgba(0,0,0,0.1);
+		display: none;
+		z-index: 100;
+	}	
+		.sn_plugin_options_wrap .sn_skin_login_preview .classes-overlay .note {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			background: transparent;
+			z-index: 101;
+		}
+			.sn_plugin_options_wrap .sn_skin_login_preview .classes-overlay .note .dot {
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				width: 10px;
+				height: 10px;
+				display: block;
+				background: red;
+				border-radius: 100%;
+				-moz-border-radius: 100%;
+				-webkit-border-radius: 100%;
+				z-index: 102;
+				cursor: pointer;
+			}
+			.sn_plugin_options_wrap .sn_skin_login_preview .classes-overlay .note .grid {
+				border: 2px solid red;
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				display: none;
+				background: #FFF;
+				background: rgba(255,255,255,0.4);
+				border-radius: 5px;
+				-moz-border-radius: 5px;
+				-webkit-border-radius: 5px;
+				z-index: 101;
+			}
+			.sn_plugin_options_wrap .sn_skin_login_preview .classes-overlay .note .label {
+				padding: 6px 20px;
+				font-size: 12px;
+				display: inline-block;
+				font-weight: bold;
+				background: red;
+				border-radius: 0 0 5px 0;
+				-moz-border-radius: 0 0 5px 0;
+				-webkit-border-radius: 0 0 5px 0;
+				color: #FFF;
+			}
+	
+/* Form */	
+.sn_plugin_options_wrap .sn_plugin_options_form {
+	float: left;
+	display: block;
+	width: 40%;
+}
+	.sn_plugin_options_wrap .show-image { position: absolute; left: -9999px; top: -9999px; }
+	.sn_plugin_options_wrap tr.field_sn_skin_login_logo .show-image img { max-width: 274px!important; }
+	.sn_plugin_options_wrap tr.field_sn_skin_login_logo_width,
+	.sn_plugin_options_wrap tr.field_sn_skin_login_logo_height,
+	.sn_plugin_options_wrap tr.field_sn_skin_login_theme_css { display: none; }
+	
+	.sn_plugin_options_wrap .sn_skin_login_themes_wrapper {
+		position: relative;
+		padding: 20px 0 0 0;
+	}
+		.sn_plugin_options_wrap .sn_skin_login_themes_wrapper .themes-nav {
+			position: absolute;
+			top: 14px;
+			right: 0px;
+		}
+			.sn_plugin_options_wrap .sn_skin_login_themes_wrapper .themes-nav a {
+				padding: 2px 6px;
+				border-radius: 5px 0 0 5px;
+				-moz-border-radius: 5px 0 0 5px;
+				-webkit-border-radius: 5px 0 0 5px;
+				font-family: Arial;	
+				margin: 0px;
+			}
+			.sn_plugin_options_wrap .sn_skin_login_themes_wrapper .themes-nav a.next {
+				border-radius: 0 5px 5px 0; 
+				-moz-border-radius: 0 5px 5px 0; 
+				-webkit-border-radius: 0 5px 5px 0; 
+			}
+	.sn_plugin_options_wrap tr.field_sn_skin_login_theme h2 { margin-top: -25px!important; }
+	.sn_plugin_options_wrap tr.field_sn_skin_login_theme select {
+		position: absolute;
+		top: 13px;
+		right: 60px;
+		font-size: 11px;
+	}
+	.sn_plugin_options_wrap ul.sn_skin_login_themes { display: block; }
+		.sn_plugin_options_wrap ul.sn_skin_login_themes li {
+			width: 100%;
+			margin: 0 0 0 0;
+			display: none;
+		}
+			.sn_plugin_options_wrap ul.sn_skin_login_themes li a {
+				display: block;
+				border: 3px solid #FFF;
+				opacity: 0.6;
+				overflow: hidden;
+			}
+			.sn_plugin_options_wrap ul.sn_skin_login_themes li.active { display: block; }
+			.sn_plugin_options_wrap ul.sn_skin_login_themes li.active a { border: 3px solid #CCC; opacity: 1; }
+				.sn_plugin_options_wrap ul.sn_skin_login_themes li img { width: 100%; height: auto; display: block; }
+
+.upgrade-notice {
+	border: 1px solid #E6DB55;
+	background: lightYellow;
+	padding: 10px 10px 15px 10px;
+	font-size: 12px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	margin: 0 20px 0 10px;
+}
+	.upgrade-notice h4 { margin: 0px; padding: 0 0 5px 0; }
+	.upgrade-notice p { padding: 0px; margin: 0px; font-size: 11px; line-height: 15px; }

@@ -1,0 +1,60 @@
+table.tele_order {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+
+}
+table.tele_order thead th {
+	width: auto;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #369;
+    border-bottom: 3px solid #036;
+}
+table.tele_order tbody th {
+    width: auto;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;
+}
+table.tele_order td {
+    width: auto;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+
+
+#container {
+	background-color:#F5F5F5;
+	width:960px;
+	margin:0 auto;
+	padding:10px;
+	
+}
+
+#order_table {
+	background-color:#F5F5F5;
+	clear:both; 
+	width:940px;
+	margin:0 auto;
+	padding: 10px;
+
+}
+
+
+#pagination {
+	background-color:#F5F5F5;
+	clear:both; 
+	width:940px;
+	
+	height:50px;
+	margin:10px;
+	 
+}
+
+
+

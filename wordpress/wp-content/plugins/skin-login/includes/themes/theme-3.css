@@ -1,0 +1,58 @@
+.login {
+	padding-top: 114px;
+	margin-top: 0px;
+	overflow: hidden;
+}
+.login #login {
+	width: 500px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+	.login h1 a { width: 100%; background-position: 20px top; }
+	.login form {
+		margin: 10px 0 10px 0;
+		overflow: hidden;
+		padding: 24px 0px 24px 5px;
+		position: relative;
+	}
+		.login form p {
+			float: left;
+			width: 214px;
+			margin: 0 0 0 20px;
+		}
+		.login #lostpasswordform p {
+			float: none;
+			width: 448px;
+		}
+		.login #login form p.forgetmenot {
+			position: absolute;
+			left: 85px;
+			bottom: 26px;
+		}
+		.login #login form p#reg_passmail {
+			position: absolute;
+			text-align: right;
+			bottom: 30px;
+			right: 24px;
+		}
+		
+			.login form input[type="text"],
+			.login form input[type="password"],
+			.login form input[type="email"] { margin-top: 5px; }
+			
+			.login form p.submit {
+				clear: left;
+				float: left;
+			}
+				.login #wp-submit {
+					float: left;
+					line-height: normal;
+					height: 23px;
+					box-shadow: none;
+					margin-left: 20px;
+				}
+		
+.login div.updated, .login .message, div.error, .login #login_error { margin: 0 0 10px 0; }
+.login #nav, .login #backtoblog { margin-left: 10px; }
+.login #nav { float: right; }
+.login #backtoblog { float: left; }
